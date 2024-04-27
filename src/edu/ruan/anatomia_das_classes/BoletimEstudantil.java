@@ -1,4 +1,4 @@
-package edu.ruan.primeirasemana;
+package edu.ruan.anatomia_das_classes;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
