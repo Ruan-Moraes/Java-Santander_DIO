@@ -1,4 +1,4 @@
-package edu.ruan.metodos;
+package edu.ruan.sintaxe.metodos;
 
 public class SistemaSmartTv {
     boolean ligada = false;

@@ -1,4 +1,4 @@
-package edu.ruan.operadores;
+package edu.ruan.sintaxe.operadores;
 
 public class Operadores {
     public static void main(String[] args) {
@@ -63,7 +63,7 @@ public class Operadores {
         simNao = numero1 != numero2;
 
         System.out.println("numeroUm é diferente a numeroDois?" + simNao);
- 
+
         simNao = numero1 > numero2;
 
         System.out.println("numeroUm é maior que numeroDois?" + simNao);

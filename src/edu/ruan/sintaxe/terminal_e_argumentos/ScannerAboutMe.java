@@ -1,4 +1,4 @@
-package edu.ruan.terminal_e_argumentos;
+package edu.ruan.sintaxe.terminal_e_argumentos;
 
 import java.util.Locale;
 import java.util.Scanner;

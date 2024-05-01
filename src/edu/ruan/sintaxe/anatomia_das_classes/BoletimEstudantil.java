@@ -1,4 +1,4 @@
-package edu.ruan.anatomia_das_classes;
+package edu.ruan.sintaxe.anatomia_das_classes;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {

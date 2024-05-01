@@ -1,4 +1,4 @@
-package edu.ruan.terminal_e_argumentos;
+package edu.ruan.sintaxe.terminal_e_argumentos;
 
 public class MinhaClasse {
     public static void main(String[] args) {

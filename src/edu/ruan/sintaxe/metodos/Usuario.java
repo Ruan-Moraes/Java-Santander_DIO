@@ -1,4 +1,4 @@
-package edu.ruan.metodos;
+package edu.ruan.sintaxe.metodos;
 
 public class Usuario {
     public static void main(String[] args) {

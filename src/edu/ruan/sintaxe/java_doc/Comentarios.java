@@ -1,4 +1,4 @@
-package edu.ruan.java_doc;
+package edu.ruan.sintaxe.java_doc;
 
 public class Comentarios {
     // Olá, eu sou um comentário em uma única linha
@@ -19,7 +19,7 @@ public class Comentarios {
      * mas olha, ele tem a finalidade somar ou  multiplicar
      * dois números
      */
-    
+
     public int somaMultiplica(int n, int x, String m) {
         int r = 0; // r é igual ao resultado
 

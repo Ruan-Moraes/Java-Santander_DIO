@@ -1,4 +1,4 @@
-package edu.ruan.tipos_e_variaveis;
+package edu.ruan.sintaxe.tipos_e_variaveis;
 
 public class TiposVariaveis {
     public static void main(String[] args) {

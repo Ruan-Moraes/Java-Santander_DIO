@@ -1,4 +1,4 @@
-package edu.ruan.java_doc;
+package edu.ruan.sintaxe.java_doc;
 
 /**
  * <h1>Calculadora</h1>
