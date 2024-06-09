@@ -1,0 +1,62 @@
+@startuml
+class Candidato {
+    - nome: String
+    - cpf: String
+    + getNome(): String
+    + getCpf(): String
+    + setNome(nome: String): void
+    + setCpf(cpf: String): void
+}
+
+class Telefone {
+    - telefone: int
+    + getTelefone(): int
+    + setTelefone(telefone: int): void
+}
+
+class Profissao {
+    - profissao: String
+    + getProfissao(): String
+    + setProfissao(profissao: String): void
+}
+
+class Admissao {
+    - dataAdmissao: Date
+    - DDD: int
+    + getDataAdmissao(): Date
+    + setDataAdmissao(dataAdmissao: Date): void
+    + getDDD(): int
+    + setDDD(DDD: int): void
+}
+
+class Endereco {
+    - rua: String
+    - numero: int
+    - bairro: String
+    - cidade: String
+    - estado: String
+    - cep: String
+    + getRua(): String
+    + getNumero(): int
+    + getBairro(): String
+    + getCidade(): String
+    + getEstado(): String
+    + getCep(): String
+    + setRua(rua: String): void
+    + setNumero(numero: int): void
+    + setBairro(bairro: String): void
+    + setCidade(cidade: String): void
+    + setEstado(estado: String): void
+    + setCep(cep: String): void
+}
+
+
+
+
+
+Candidato "1" o-- "*" Telefone
+Candidato "0" o-- "1" Profissao
+Candidato "1" o-- "1" Endereco
+Candidato "1" *-- "1" Admissao
+
+@enduml

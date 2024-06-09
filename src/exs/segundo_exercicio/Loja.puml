@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Pedido {
+    -id: int
+    -valorTotal: double
+    -cliente: Cliente
+    +getId(): int
+    +setId(id: int): void
+    +getValorTotal(): double
+    +setValorTotal(valorTotal: double): void
+    +getCliente(): Cliente
+    +setCliente(cliente: Cliente): void
+}
+
+class Cliente {
+    -id: int
+    -nome: String
+    -cpf: String
+    +getId(): int
+    +setId(id: int): void
+    +getNome(): String
+    +setNome(nome: String): void
+    +getCpf(): String
+    +setCpf(cpf: String): void
+}
+class ItemPedido {
+    -id: int
+    +getId(): int
+    +setId(id: int): void
+}
+class Produto {
+    -id: int
+    -nome: String
+    -preco: double
+    +getId(): int
+    +setId(id: int): void
+    +getNome(): String
+    +setNome(nome: String): void
+    +getPreco(): double
+    +setPreco(preco: double): void
+}
+
+Pedido "1" *-- "1" Cliente
+Pedido "1" *-- "*" ItemPedido
+ItemPedido "1" *-- "1" Produto
+
+@enduml
