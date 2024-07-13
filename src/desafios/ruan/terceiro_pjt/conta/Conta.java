@@ -3,6 +3,7 @@ package desafios.ruan.terceiro_pjt.conta;
 import desafios.ruan.terceiro_pjt.cliente.Cliente;
 
 public abstract class Conta implements ContratoConta {
+
     private String titularConta;
     private double saldo;
     private String numeroConta;
